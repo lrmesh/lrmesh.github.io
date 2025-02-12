@@ -1,3 +1,40 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://lrme.sh/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'lrme.sh'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
+
+[params]
+  disableLandingPageButton = false
+  disableSearch = true
+  disableSearchIndex = true
+  disableSearchPage = true
+  themeVariant = 'lrmesh'
+
+[menus]
+  [[menus.neighbors]]
+    name = '<i class="fa-solid fa-book"></i> Memphis Mesh'
+    url = 'https://memphisme.sh/'
+    weight = 10
+
+  [[menus.neighbors]]
+    name = '<i class="fa-solid fa-book"></i> NWA Mesh'
+    url = 'https://nwamesh.com/'
+    weight = 10
+
+  [[menus.shortcuts]]
+    name = '<i class="fa-solid fa-book"></i> Meshtastic Docs'
+    url = 'https://meshtastic.org/docs/getting-started/'
+    weight = 10
+
+  [[menus.shortcuts]]
+    name = '<i class="fa-brands fa-discord"></i> Discord'
+    url = 'https://discord.gg/meshtastic-867578229534359593'
+    weight = 20
+
+  [[menus.shortcuts]]
+    name = '<i class="fa-brands fa-github"></i> lrmesh Github Repos'
+    url = 'https://github.com/lrmesh'
+    weight = 30
