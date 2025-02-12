@@ -7,7 +7,7 @@ title = 'lrme.sh'
     path = 'github.com/McShelby/hugo-theme-relearn'
 
 [params]
-  disableLandingPageButton = false
+  disableLandingPageButton = true
   disableSearch = true
   disableSearchIndex = true
   disableSearchPage = true
