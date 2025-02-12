@@ -35,6 +35,6 @@ title = 'lrme.sh'
     weight = 20
 
   [[menus.shortcuts]]
-    name = '<i class="fa-brands fa-github"></i> lrmesh Github Repos'
+    name = '<i class="fa-brands fa-github"></i> lrmesh GitHub Repos'
     url = 'https://github.com/lrmesh'
     weight = 30
