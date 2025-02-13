@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuration :: lrme.sh</title><link>https://lrme.sh/configuration/index.html</link><description>Recommended Configuration This section will address a few mistakes new mesh users might make.
+Please do not enable MQTT Downlink on the default LongFast Channel this will flood our local mesh with hundreds of nodes in different countries.
+Please do not set your message hop limit more than 4 hops.
+Please keep communications on the default channel clean as many schools are also experimenting with Meshtastic.
+Please enable a fixed GPS location if you are not dynamically updating. We encourage not setting the location to your house or office just somewhere close so other users can see signal propagation.</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://lrme.sh/configuration/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
