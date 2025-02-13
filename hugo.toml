@@ -7,34 +7,65 @@ title = 'lrme.sh'
     path = 'github.com/McShelby/hugo-theme-relearn'
 
 [params]
-  disableLandingPageButton = true
+  disableLandingPageButton = false
   disableSearch = true
   disableSearchIndex = true
   disableSearchPage = true
+  disableShortcutsTitle = true
   themeVariant = 'lrmesh'
 
 [menus]
-  [[menus.neighbors]]
+  [[menus.shortcuts]]
+    name = 'Neighbors'
+
+  [[menus.shortcuts]]
     name = '<i class="fa-solid fa-book"></i> Memphis Mesh'
     url = 'https://memphisme.sh/'
+    parent = 'Neighbors'
     weight = 10
 
-  [[menus.neighbors]]
+  [[menus.shortcuts]]
     name = '<i class="fa-solid fa-book"></i> NWA Mesh'
     url = 'https://nwamesh.com/'
+    parent = 'Neighbors'
+    weight = 20
+
+  [[menus.shortcuts]]
+    name = 'Shortcuts'
+
+  [[menus.shortcuts]]
+    name = '<i class="fa-solid fa-map"></i> Public Mesh Map'
+    url = 'https://meshmap.net/'
+    parent = 'Shortcuts'
     weight = 10
 
   [[menus.shortcuts]]
     name = '<i class="fa-solid fa-book"></i> Meshtastic Docs'
     url = 'https://meshtastic.org/docs/getting-started/'
-    weight = 10
+    parent = 'Shortcuts'
+    weight = 20
 
   [[menus.shortcuts]]
     name = '<i class="fa-brands fa-discord"></i> Discord'
     url = 'https://discord.gg/meshtastic-867578229534359593'
-    weight = 20
+    parent = 'Shortcuts'
+    weight = 30
 
   [[menus.shortcuts]]
     name = '<i class="fa-brands fa-github"></i> lrmesh GitHub Repos'
     url = 'https://github.com/lrmesh'
-    weight = 30
+    parent = 'Shortcuts'
+    weight = 40
+
+[[sidebarmenus]]
+  disableTitle = true
+  identifier = 'home'
+  main = true
+  pageRef = ''
+  type = 'page'
+
+[[sidebarmenus]]
+  disableTitle = false
+  identifier = 'shortcuts'
+  main = false
+  type = 'menu'

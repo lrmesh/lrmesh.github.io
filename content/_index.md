@@ -1,25 +1,6 @@
 +++
 title = ""
 type = "home"
-
-[[sidebarmenus]]
-  disableTitle = true
-  identifier = 'home'
-  main = true
-  pageRef = ''
-  type = 'page'
-
-[[sidebarmenus]]
-  disableTitle = false
-  identifier = 'neighbors'
-  main = true
-  type = 'menu'
-
-[[sidebarmenus]]
-  disableTitle = false
-  identifier = 'shortcuts'
-  main = true
-  type = 'menu'
 +++
 
 ![Central Arkansas Meshtastic Map](/images/map_20250211.png "Central Arkansas Meshtastic Map")
