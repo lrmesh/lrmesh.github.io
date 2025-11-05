@@ -31,6 +31,12 @@ title = 'lrme.sh'
     weight = 20
 
   [[menus.shortcuts]]
+    name = '<i class="fa-solid fa-book"></i> Hot Springs Mesh'
+    url = 'https://hotme.sh/'
+    parent = 'Neighbors'
+    weight = 30
+
+  [[menus.shortcuts]]
     name = 'Shortcuts'
 
   [[menus.shortcuts]]
