@@ -53,7 +53,7 @@ title = 'lrme.sh'
 
   [[menus.shortcuts]]
     name = '<i class="fa-brands fa-discord"></i> Discord'
-    url = 'https://discord.gg/meshtastic-867578229534359593'
+    url = 'https://discord.gg/meshtastic'
     parent = 'Shortcuts'
     weight = 30
 

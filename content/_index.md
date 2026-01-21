@@ -7,7 +7,7 @@ type = "home"
 
 **LR Mesh** is a community of individuals working to build a network of Meshtastic radios in the Central Arkansas area. This network acts like an area-wide text messaging system, allowing people to communicate publicly or privately with anyone on the network. The mesh network can also be used to transmit GPS locations or read weather and other telemetry. All of this happens without any external infrastructure – no cell phone towers, no internet.  We are growing every day.
 
-Have questions or just want to connect? Please join us on Discord. Join the official [**Meshtastic Server**](https://discord.gg/meshtastic-867578229534359593) and then you can find us in the [**US Arkansas**](https://discord.com/channels/867578229534359593/1196928262165770341) thread.
+Have questions or just want to connect? Please join us on Discord. Join the official [**Meshtastic Server**](https://discord.gg/meshtastic) and then you can find us in the [**US Arkansas**](https://discord.com/channels/867578229534359593/1196928262165770341) thread.
 
 
 ### What is Meshtastic
