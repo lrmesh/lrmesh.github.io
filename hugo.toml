@@ -37,6 +37,12 @@ title = 'lrme.sh'
     weight = 30
 
   [[menus.shortcuts]]
+    name = '<i class="fa-solid fa-book"></i> LZMesh (SW MO+)'
+    url = 'https://lzmesh.com/'
+    parent = 'Neighbors'
+    weight = 40
+
+  [[menus.shortcuts]]
     name = 'Shortcuts'
 
   [[menus.shortcuts]]
